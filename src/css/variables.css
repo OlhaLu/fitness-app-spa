@@ -1,0 +1,12 @@
+  :root {
+--img-background: #2D9CDB;
+--btn-background: #9C69E2;
+--header-text-color: #212353;
+--textcolor: #4B5D68;
+--fotter-background: #9C69E2;
+
+@import '../sass/fonts.scss';
+
+--main-font: 'Avenir', sans-serif;
+--main-font-light: 'Avenir-Light', sans-serif;
+}

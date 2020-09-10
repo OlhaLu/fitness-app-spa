@@ -6,7 +6,7 @@
 
     body {
     background: #E5E5E5;
-    font-family: $main-font;
+    font-family: var(--main-font);
    }
 
    .container {
