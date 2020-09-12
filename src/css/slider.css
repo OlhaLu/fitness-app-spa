@@ -107,16 +107,20 @@
  }
 
 .slide-button {
+   cursor: pointer;
    width: 170px;
    height: 60px;
    background: var(--btn-background);
    border-radius: 50px;
-   font-family: Avenir;
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 160%;
 align-items: center;
 text-align: center;
 color: #FFFFFF;
+}
+
+.slide-button:hover {
+background: var(--img-background);
+color: var(--header-text-color);
 }

@@ -13,7 +13,7 @@
 
     .site__logo {
    display: block;
-   background-image: url(../../src/images/Logo.png);
+   background-image: url('../../src/images/Logo.png');
    width: 49px;
    height: 35px;
    }
@@ -55,18 +55,22 @@
    }
 
   .request-button {
+    cursor: pointer;
   width: 210px;
   height: 60px;
   background: #FFFFFF;
-  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border: none;
+  box-shadow: 0px 2px 2px rgba(217, 236, 236, 0.1);
   border-radius: 50px;
- font-family: Avenir;
- font-style: normal;
  font-size: 14px;
  line-height: 160%;
- display: flex;
  align-items: center;
  color: var(--btn-background);
+  }
+
+  .request-button:hover {
+    background-color: var(--btn-background);
+    color: var(--header-text-color);
   }
 
   .input {

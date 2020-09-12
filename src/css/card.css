@@ -30,6 +30,7 @@ color: var(--textcolor);
 }
 
 .card__list {
+    margin-left: 130px;
     columns: 2;
 }
 
@@ -111,7 +112,6 @@ margin-left: 10px;
     font-size: 16px;
     line-height: 160%;
     color:var(--textcolor);
-    padding: 0 10px;
     margin-bottom: 20px;
 }
 
