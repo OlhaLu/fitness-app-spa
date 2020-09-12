@@ -25,6 +25,7 @@
    }
 
     .list--item {
+      padding: 10px 0;
    list-style: none;
    }
 
@@ -32,7 +33,6 @@
    display: block;
    text-decoration: none;
    color: var(--header-text-color);
-   text-transform: uppercase;
    font-size: 14px;
    transition: color 0.5s linear;
    }
@@ -55,6 +55,8 @@
    }
 
   .request-button {
+  width: 210px;
+  height: 60px;
   background: #FFFFFF;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
   border-radius: 50px;
@@ -64,7 +66,7 @@
  line-height: 160%;
  display: flex;
  align-items: center;
- color: #212353;
+ color: var(--btn-background);
   }
 
   .input {
