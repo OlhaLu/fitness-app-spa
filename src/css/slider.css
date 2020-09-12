@@ -4,6 +4,7 @@
     margin: 0 auto;
     width: 1145px;
     height: 100%;
+    margin-bottom: 50px;
  }
  #slider input[type=radio] {
     display: none;
@@ -40,36 +41,26 @@
  }
  #slides .slide {
     width: 25%;
-    float:left;
+    float: left;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
  }
  #slides .slide_1 {
     background-image: url('../images/Rectangle\ 34.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50px;
  }
  #slides .slide_2 {
     background-image: url('../images/property_times_news_bts_parus_snova_smenil_vladeltsa.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50px;
  }
  #slides .slide_3 {
     background-image: url('../images/3540-4-fotozum_7445.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50px;
  }
  #slides .slide_4 {
     background-image: url('../images/cities3-e1574234961539.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50px;
  }
 
  #bullets {
