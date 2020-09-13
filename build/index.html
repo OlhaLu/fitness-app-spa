@@ -19,6 +19,7 @@
   <title>Fitness App</title>
   <link rel="stylesheet" href="css/styles.min.css">
   <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
@@ -40,6 +41,22 @@
       <div>
         <a href="#modal" class="request modal-show">Request Demo → </a>
       </div>
+    </div>
+
+    <div class="mobile-menu">
+      <nav class="mobile-nav-wrap" role="navigation">
+        <ul class="mobile-header-nav">
+          <li class="list--item"><a href="#" class="nav--link">About</a></li>
+          <li class="list--item"><a href="#" class="nav--link">Help</a></li>
+          <li class="list--item"><a href="#" class="nav--link">Futures</a></li>
+          <li class="list--item"><a href="#" class="nav--link">Sing up</a></li>
+        </ul>
+      </nav>
+      <a class="mobile-menu-toggle js-toggle-menu hamburger-menu" href="#">
+        <span class="menu-item"></span>
+        <span class="menu-item"></span>
+        <span class="menu-item"></span>
+      </a>
     </div>
 
     <main>
@@ -254,6 +271,13 @@
     </footer>
     <script src="js/scripts.min.js"></script>
     <script src="./js/index.js"></script>
+    <script>
+      $('.js-toggle-menu').click(function (e) {
+        e.preventDefault();
+        $('.mobile-header-nav').slideToggle();
+        $(this).toggleClass('open');
+      })
+    </script>
 </body>
 
 </html>

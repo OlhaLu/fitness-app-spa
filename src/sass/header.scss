@@ -1,5 +1,9 @@
 @import '../sass/variables.scss';
 
+.mobile-menu {
+  display: none;
+}
+
 .header-block {
     display: flex;
     justify-content: space-between;
