@@ -1,4 +1,101 @@
 @import '../sass/variables.scss';
 
+@media screen and (max-width: 767px) {
+    .container {
+        width: 375px;
+        padding: 0 5px;
+        }
 
-// @media 
+    .nav__list {
+        display: none;
+    }
+
+    .request {
+        display: none;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .cart-text-block {
+        padding: 10px;
+        width: 200px;
+        height: 130px;
+        }
+
+    .card__list {
+    display: inline;
+    }
+
+    .card__item {
+        margin-left: 100px;
+        width: 230px;
+        height: 160px;
+        margin-bottom: 30px;
+    }
+
+    .icon {
+        margin-top: -50px;
+        width: 130px;
+        height: 140px;
+        padding:  10px;
+    }
+
+    .card__title {
+        font-size: 14px;
+        margin-bottom: 5px;
+    
+    }
+    
+    .card__discription {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .card-link {
+        font-size: 10px;
+    }
+
+    .footer {
+        text-align: center;
+        background-image: url('../images/Rectangle\ 41.png');
+        background-size: contain;
+    }
+
+    .footer-block  {
+        display: none;
+    }
+
+    .about {
+        display: none;
+    } 
+    
+    .help {
+        display: none;
+    }
+
+    .info-block {
+        display: inline;
+        justify-content: space-between;
+    }
+
+    .adress-block {
+        margin-bottom: 35px;
+    }
+
+   .adress, .phone {
+   margin-left: 25px;
+    font-size: 12px;
+    }
+
+    .logo-block, .text {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+
+}

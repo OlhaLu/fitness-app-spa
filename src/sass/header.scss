@@ -9,9 +9,11 @@
     }
 
     .block__nav {
+      display: flex;
     }
 
     .site__logo {
+   margin-right: 35px;
    display: block;
    width: 49px;
    height: 35px;
