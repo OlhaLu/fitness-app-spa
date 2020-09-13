@@ -38,12 +38,13 @@
         </ul>
       </div>
       <div>
-        <button class="request-button modal-show">Request Demo &#8594</button>
+        <a href="#modal" class="request modal-show">Request Demo &#8594</a>
       </div>
     </div>
+
     <main>
 
-      <div id="slider">
+      <div class="slider">
         <input type="radio" name="slider" id="slide1" checked>
         <input type="radio" name="slider" id="slide2">
         <input type="radio" name="slider" id="slide3">
@@ -150,6 +151,45 @@
         </ul>
       </div>
 
+      <div class="modal" id="modal">
+        <div class="modal-content">
+          <a class="modal-hide" href="#">✕</a>
+
+
+          <div>
+            <p class="form-title">Request Demo</p>
+            <div class="form">
+              <div class="input-block">
+                <div class="text-input">
+                  <label class="label" for="username">Name</label>
+                  <input class="input" type="text" name="username" id="username" />
+                  <span class="separator"> </span>
+                </div>
+
+                <div class="text-input">
+                  <label class="label" for="email">Email</label>
+                  <input class="input" type="email" name="email" id="email" />
+                  <span class="separator"> </span>
+                </div>
+
+                <div class="text-input">
+                  <label class="label" for="web">Web</label>
+                  <input class="input" type="text" name="web" id="web" />
+                  <span class="separator"> </span>
+                </div>
+              </div>
+
+              <div class="message-block">
+                <label class="label" for="web">Message</label>
+                <textarea class="input input-message" type="text" wrap="hard" name="message"></textarea>
+                <span class="separator"> </span>
+              </div>
+            </div>
+            <div>
+              <button class="send">Send</button>
+            </div>
+          </div>
+
     </main>
 
     <footer class="footer">
@@ -161,7 +201,7 @@
         </div>
         <div class="footer-buttons">
           <button class="button-load">Load more</button>
-          <button class="button-request open__modal">Request Demo &#8594</button>
+          <a href="#modal" class="request modal-show">Request Demo &#8594</a>
         </div>
       </div>
 

@@ -1,0 +1,132 @@
+@import '../sass/variables.scss';
+
+.cards-block {
+}
+
+.maintitle-block {
+    margin: auto;
+    max-width: 584px;
+    margin-bottom: 35px;
+}
+
+.card__maintitle {
+text-align: center;
+padding: 20px 0;
+font-family: var(--main-font);
+font-style: normal;
+font-size: 40px;
+line-height: 130%;
+color: var(--header-text-color);
+}
+
+.pretitle {
+text-align: center;
+font-family: var(--main-font);
+font-style: normal;
+font-size: 18px;
+line-height: 160%;
+color: #4B5D68;
+color: var(--textcolor);
+}
+
+.card__list {
+    margin-left: 130px;
+    columns: 2;
+}
+
+.card__item {
+    list-style: none;
+    width: 440px;
+    height: 358px;
+    margin-bottom: 35px;
+    display: flex;
+}
+
+.card__item1 {
+    background: url('../images/Rectangle\ 39\ \(1\).png') no-repeat;
+}
+
+.card__item2 {
+    background: url('../images/Rectangle\ 39.png') no-repeat;
+}
+
+.card__item3 {
+    background: url('../images/Rectangle\ 39\ \(3\).png') no-repeat;
+}
+
+.card__item4 {
+    background: url('../images/Rectangle\ 39\ \(2\).png') no-repeat;
+}
+
+.icon {
+    display: block;
+    content: "";
+    width: 245px;
+    height: 181px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 25px 10px;
+    margin-left: -65px;
+    margin-top: 65px;
+ } 
+
+.card__item--icon01 {
+    background-image: url('../images/image3 1.png');
+}
+
+.card__item--icon02 {
+    background-image: url('../images/image6 1.png');
+
+}
+
+.card__item--icon03 {
+    background-image: url('../images/image5 1.png');
+}
+
+.card__item--icon04 {
+    background-image: url('../images/image4.png');
+}
+
+.cart-text-block {
+width: 270px;
+height: 200px;
+padding: 35px 10px;
+margin-left: 10px;
+}
+
+.card__title {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 130%;
+    align-items: center;
+    color: var(--textcolor);
+    margin-bottom: 20px;
+}
+
+.card__discription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color:var(--textcolor);
+    margin-bottom: 20px;
+}
+
+.card-link {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    align-items: center;
+    display: block;
+   text-decoration: none;
+   color: var(--header-text-color);
+   transition: color 0.3s linear;
+}
+ 
+.card-link:hover {
+    color: var(--img-background);
+}
